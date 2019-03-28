@@ -20,6 +20,8 @@ public class Main {
         meuCarro.acelera();;
         meuCarro.acelera();;
         System.out.println(meuCarro.VelocidadeAtual);
+        meuCarro.freia();
+        System.out.println(meuCarro.VelocidadeAtual);
 
     }
 }
